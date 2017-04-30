@@ -36,9 +36,18 @@ I worked closely with the team of performance specialists to identify a list of 
 </p>
 
 <h2>Risk Calculator</h2>
-<img src="images/risk-calculator.png" height="600px" width="auto">
+<img src="images/risk-calculator.png" height="400px" width="auto">
 <p>
-The Risk Calculator consisted of four main components: Inputs, Deviations, Outputs and Contact Info.
+The Risk Calculator consisted of four main components: Inputs, Deviations, Outputs and Contact Info. 
+
+The <b>Inputs</b> section allowed the user to describe certain characteristics of the contract under review, some of which were merely used for documentation purposes while others changed some of the starting variables in the risk calculation.
+
+The <b>Deviations</b> section contained a numbered list of possible deviations from the standard contract that could be selected. It was up to the contract negotiator to identify the deviations from the contract language and select the corresponding items in the Risk Calculator. Some deviations also required additional inputs once selected. 
+
+The <b>Outputs</b> 
+
+The <b>Contact Info</b>
+
 </p>
 
 
