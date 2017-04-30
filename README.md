@@ -49,7 +49,7 @@ The <b>Outputs</b> section showed the final results and some intermediate values
 The <b>Contact Info</b> section provided names and emails of the performance specalists, contract negotiators and tool developer, along with links to documentation on the Risk Calculator and the performane guarantee negotiation process.
 </p>
 
-<h3>How It Works</h3>
+<h2>How It Works</h2>
 <p>
 The purpose of the Risk Calculator was to estimate the overall risk of failing a performance guarantee. The primary assumption behind the risk calculations was that the expected performance of the product could be modelled as a normal distribution. And based on empirical data from previous performance tests, normal distributions (mean and standard deviation) for each product were built into the Risk Calculator. The risk of failure of a performance test was then determined by whether or not the expected performance of the product was above or below the threshold of the guarantee.
 </p>
@@ -62,8 +62,9 @@ Each deviation that was selected did one or more of the following: adjusted the 
 <img src="images/normal-distribution.png" height="400px" width="auto">
 <p>
 The Monte Carlo simulation was done in the client browser using vanilla Javascript, and was ran each time the user changed any input or deviation. For each change, a new set of 100,000 samples was created and a new risk estimate was calculated.
- </p>
- <p>
- And last, an <bold>Email Summary</bold> button was included which automatically generated a pre-built email with a summary of all of the inputs, selected deviations, and outputs. This email was directed at the performance specialists who would be reviewing the results and providing approval in the contract negotiation process, which allowed a reproducible and easily communicated set of results to facilitate the contracting process.
- </p>
- 
+</p>
+<p>
+And last, an <bold>Email Summary</bold> button was included which automatically generated a pre-built email with a summary of all of the inputs, selected deviations, and outputs. This email was directed at the performance specialists who would be reviewing the results and providing approval in the contract negotiation process, which allowed a reproducible and easily communicated set of results to facilitate the contracting process.
+</p>
+<h2>Conclusion</h2>
+The Risk Calculator represents something that I value in web development: finding a problem in knowledge transfer or workflow, working with other technical specialists to identify a solution, and building a web-tool to address the problem. This tool greatly improved the communication of complicated issues for many sales and technical experts around the globe, reduced bottlenecks and workload of key individuals, and was a great challenge to work on and develop.
