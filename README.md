@@ -59,7 +59,11 @@ To calculate this risk, a Monte Carlo simulation of 100,000 samples is generated
 <p>
 Each deviation that was selected did one or more of the following: adjusted the mean and/or the standard deviation of the expected performance normal distribution, adjusted the threshold of the pass/fail guarantee, or had no impact (but noted for documentation purposes). The adjustments of such deviations are shown in the figure below.
 </p>
- <img src="images/normal-distribution.png" height="400px" width="auto">
+<img src="images/normal-distribution.png" height="400px" width="auto">
+<p>
+The Monte Carlo simulation was done in the client browser using vanilla Javascript, and was ran each time the user changed any input or deviation. For each change, a new set of 100,000 samples was created and a new risk estimate was calculated.
+ </p>
  <p>
+ And last, an <bold>Email Summary</bold> button was included which automatically generated a pre-built email with a summary of all of the inputs, selected deviations, and outputs. This email was directed at the performance specialists who would be reviewing the results and providing approval in the contract negotiation process, which allowed a reproducible and easily communicated set of results to facilitate the contracting process.
  </p>
  
